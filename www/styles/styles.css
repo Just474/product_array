@@ -1,0 +1,53 @@
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 15px 15px;
+    padding: 15px 15px;
+    background-color: #2ce28a;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.button:hover {
+    cursor: pointer;
+    background: #5992db;
+    transition-duration:0.5s;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    background-size: 200px;
+    font-family: "GOST type A";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.catalog {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 20px;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+.image-container {
+    height: 100%;
+    box-sizing: border-box;
+}
+.cart img {
+    width: 100%;
+
+}
